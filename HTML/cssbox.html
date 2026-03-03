@@ -1,0 +1,58 @@
+<html>
+    <heaed>
+        <title>
+            css box
+        </title>
+        <style>
+            a::after{
+                content: "("   attr(href)  ")";
+                font-size: 23;
+                font-family: italic;
+                text-align: center;
+            }
+            #border{
+                border-style: inset;
+                font-size: 23;
+                text-align: center;
+            }
+            #mar{
+                margin-top: 50;
+                margin-bottom: 30;
+                margin-right: 50;
+                margin-left: 50;
+                border: 2px solid rgb(50, 41, 41);
+                background-color: antiquewhite;
+                font-size: 25;
+            }
+            #pad{
+                border: 2px solid rgb(129, 187, 238);
+                background-color: rgb(68, 163, 114);
+                padding-left: 50;
+                padding-bottom: 50;
+                padding-right: 50;
+                padding-top: 50;
+                font-size: 25;
+            }
+            *{
+                background-color: rgb(221, 235, 185);
+            }
+        </style>
+    </heaed>
+    <body>
+        <h1>
+            The content Property
+        </h1>
+        <p style="font-size: 25;">The content property is used to insert generated content.</p>
+        <a href="https://github.com/ShaikMohammad-Saeed1105/FSD-1">GITHUB repositry :  </a>
+        <h1>
+            The border property
+        </h1>
+        <p id="border">This the border property by this we can create a border by adding<br><mark>Border Style Tag</mark> in various ways</p>
+        <h1>
+            The Margin property
+        </h1>
+        <p id="mar">This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</p>
+        <h1>The padding property</h1>
+        <p id="pad">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</p>
+    </body>
+</html>
